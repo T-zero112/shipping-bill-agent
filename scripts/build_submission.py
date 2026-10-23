@@ -22,7 +22,7 @@ def main():
                 continue  # Omit personal cross-project config helper and real-sample gold validators.
             entries[file.relative_to(ROOT).as_posix()]=file.read_bytes()
     for name in ['README.md','REQUIREMENTS_COVERAGE.md','ARCHITECTURE.md','REPRODUCTION_REPORT.md',
-                 'WEB_DEMO_REPORT.md','ACCEPTANCE_RECORD.md','requirements.txt','requirements.lock.txt','pytest.ini','.env.example','.gitignore']:
+                 'WEB_DEMO_REPORT.md','ACCEPTANCE_RECORD.md','DESIGN_REFLECTIONS.md','requirements.txt','requirements.lock.txt','pytest.ini','.env.example','.gitignore']:
         entries[name]=(ROOT/name).read_bytes()
     for file in sorted((ROOT/'billing_agent/web').iterdir()):
         if file.suffix in {'.html','.js','.css'}:
