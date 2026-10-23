@@ -1,0 +1,23 @@
+{
+  "charges": [
+    {
+      "reference_no": "DN1",
+      "issuer": "A",
+      "recipient": "B",
+      "charge_item": "Handling Fee",
+      "amount": 40,
+      "currency": "USD",
+      "evidence_ids": [
+        "fb623c3c66feb109197e"
+      ],
+      "amount_quote": "USD 40",
+      "direction": "ISSUER_CHARGES_RECIPIENT",
+      "direction_quote": "A charges B.",
+      "intent": "MODIFY",
+      "explicit_changes": [
+        "amount"
+      ],
+      "change_quote": "Change amount to 40 only."
+    }
+  ]
+}

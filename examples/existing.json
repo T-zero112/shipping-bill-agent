@@ -1,0 +1,23 @@
+[
+  {
+    "id": "synthetic-bill-1",
+    "document_info": {
+      "reference_no": "DN1",
+      "document_date": "2026-01-01"
+    },
+    "transaction_party": {
+      "issuer": "A",
+      "recipient": "B"
+    },
+    "charge_details": {
+      "charge_item": "Handling Charge",
+      "amount": 30,
+      "currency": "USD",
+      "payment_term": "PP"
+    },
+    "financial_attributes": {
+      "accounting_entity": "B",
+      "posting_type": "AP"
+    }
+  }
+]
